@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">CBSL CRM</string>
+    <!--<string name="title_activity_home_screen"></string>-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="check_in">Check In</string>
+    <string name="check_out">Check Out</string>
+    <string name="schedule_machine_list">Schedule Machine List</string>
+    <string name="logout">Logout</string>
+    <string name="file_upload">File Upload</string>
+    <string name="resolve_complaint">Resolve Complaint</string>
+    <string name="register_complaint">Register Complaint</string>
+    <string name="home">Home</string>
+
+    <string name="play_store_link"><![CDATA[https://play.google.com/store/apps/details?id=com.google.android.gms&hl=en_IN]]></string>
+    <string name="installation_date">Installation Date</string>
+    <string name="ip_adddress">IP Adddress</string>
+    <string name="comment">Comment</string>
+    <string name="title_home">Home</string>
+    <string name="register">Register</string>
+    <string name="file">File</string>
+    <string name="schedule_machine">Schedule Machine</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email_id">Enter Email Id</string>
+    <string name="login">Login</string>
+    <string name="get_started">Get Started</string>
+    <string name="about">About</string>
+    <string name="complaint_no">Complaint No</string>
+    <string name="app_name_cbsl_crm">App name : CBSL CRM</string>
+    <string name="install">Install</string>
+    <string name="save_username_password">Save Username/Password</string>
+    <string name="setting">Setting</string>
+    <string name="user_detail">User Detail</string>
+    <string name="no_data">No Data Available</string>
+    <string name="no_network_available">Please Check Internet Connection</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="rmms">RMMS</string>
+
+    <string name="machine_detail">Machine Detail</string>
+    <string name="machine">Machine</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="complaint_register">Complaint Register</string>
+    <string name="system_graph">System Graph</string>
+    <string name="notification">Notification</string>
+    <string name="logo">logo</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="username">Username</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>

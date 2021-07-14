@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_s_new_features">What\'s New Features</string>
+    <string name="app_update">App Update</string>
+
+</resources>

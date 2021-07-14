@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_register_complaint"
+            android:icon="@drawable/register_complaint_icon"
+            android:title="@string/register_complaint" />
+        <item
+            android:id="@+id/nav_resolve_complaint"
+            android:icon="@drawable/resolve_complaint_icon"
+            android:title="@string/resolve_complaint" />
+
+        <item
+            android:id="@+id/nav_file_upload"
+            android:icon="@drawable/file"
+            android:title="@string/file_upload" />
+
+
+        <item
+            android:id="@+id/nav_schedule_machine_list"
+            android:icon="@drawable/schedule_machine_list_icon"
+            android:title="@string/schedule_machine_list" />
+
+        <!--<item-->
+            <!--android:id="@+id/consumable_order"-->
+            <!--android:icon="@drawable/register_complaint_icon"-->
+            <!--android:title="Consumable Order" />-->
+
+        <!--<item-->
+             <!--android:id="@+id/consumable_track"-->
+             <!--android:icon="@drawable/register_complaint_icon"-->
+             <!--android:title="Consumable Track" />-->
+      <!--    <item
+             android:id="@+id/consumable_list"
+             android:icon="@drawable/ic_menu_send"
+             android:title="Consumable List" />
+         <item
+             android:id="@+id/submit_payment"
+             android:icon="@drawable/ic_menu_send"
+             android:title="Submit Payment" />
+         <item
+             android:id="@+id/invoice_list"
+             android:icon="@drawable/ic_menu_send"
+             android:title="Invoice List" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_rmms"-->
+            <!--android:icon="@drawable/ic_info_black"-->
+            <!--android:title="@string/rmms" />-->
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/setting" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_black"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_info_black"
+            android:title="@string/app_update" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout_icon"
+            android:title="@string/logout" />
+    </group>
+
+</menu>

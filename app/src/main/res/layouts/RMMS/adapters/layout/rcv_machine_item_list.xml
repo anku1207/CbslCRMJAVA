@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_5"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="@dimen/margin_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_5">
+
+            <TextView
+                android:id="@+id/tv_zone_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:layout_marginTop="@dimen/margin_5"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/margin_14"
+                android:layout_marginStart="@dimen/margin_8" />
+            <TextView
+                android:id="@+id/tv_zone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:layout_marginTop="@dimen/margin_5"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/margin_14" />
+
+            <TextView
+                android:id="@+id/tv_branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/margin_14" />
+
+            <TextView
+                android:id="@+id/tv_branch_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/margin_14" />
+
+            <TextView
+                android:id="@+id/tv_machine_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/margin_14" />
+
+            <TextView
+                android:id="@+id/tv_city_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/margin_14" />
+            <TextView
+                android:id="@+id/tv_state_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/margin_14" />
+            <TextView
+                android:id="@+id/tv_total_transaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:singleLine="true"
+                android:text="Total Transaction : 0"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/margin_14" />
+            <TextView
+                android:id="@+id/tv_connected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/margin_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1.1">
+
+            <Button
+                android:id="@+id/btn_complaint_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/complaint_register"
+                android:background="@drawable/btn_shape1"
+                android:textColor="#ffffff"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_total_transaction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transaction List"
+                android:paddingLeft="@dimen/margin_5"
+                android:paddingRight="@dimen/margin_5"
+                android:visibility="gone"
+                android:background="@drawable/btn_shape1"
+                android:textColor="#ffffff"
+                android:layout_marginTop="@dimen/margin_10"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

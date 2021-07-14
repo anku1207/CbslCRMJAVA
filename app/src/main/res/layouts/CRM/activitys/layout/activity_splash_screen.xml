@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashbackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CRM.Login.SplashActivity">
+
+    <ImageView
+        android:id="@+id/cbm_logo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/cbm_logo"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo"
+        android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/splash_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_white"
+        android:text="@string/get_started"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "966235119562",
+    "firebase_url": "https://cbsl-crm-1492410954400.firebaseio.com",
+    "project_id": "cbsl-crm-1492410954400",
+    "storage_bucket": "cbsl-crm-1492410954400.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966235119562:android:371e57ec560fe61d",
+        "android_client_info": {
+          "package_name": "com.cbslprojects.crm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966235119562-5ood2amv8vufkm27k1a8580g6qlft3jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYnIRmdRzZfhBiIGbNNQYjceYoPG_pxcs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

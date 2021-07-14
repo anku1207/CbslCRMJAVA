@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/list_project_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Project :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark">
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/list_bank_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Bank :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font" />
+
+            <TextView
+                android:id="@+id/list_branch_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Branch :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font" />
+
+            <TextView
+                android:id="@+id/list_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Date :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font" />
+
+            <TextView
+                android:id="@+id/list_sole_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Sole ID :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font" />
+
+
+            <TextView
+                android:id="@+id/list_complaint_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Complaint :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font" />
+
+            <TextView
+                android:id="@+id/list_complaint_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Complaint No :"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark" />
+</LinearLayout>
+
