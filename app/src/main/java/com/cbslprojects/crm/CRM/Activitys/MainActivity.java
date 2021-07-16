@@ -402,7 +402,9 @@ public class MainActivity extends AppCompatActivity
 //        }
 
         if (id == R.id.nav_logout) {
-            // isLogout = true;
+            // manoj shakya 16-07-21
+            isLogout = true;
+
             alertDialog();
             Intent service = new Intent(MainActivity.this, NotificationService.class);
             MainActivity.this.startService(service);
