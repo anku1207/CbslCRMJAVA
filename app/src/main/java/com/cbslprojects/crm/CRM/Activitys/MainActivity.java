@@ -111,7 +111,6 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-
         progressDialog = new ProgressDialog(MainActivity.this);
         progressDialog.setMessage("Please wait...");
         progressDialog.setCancelable(false);
