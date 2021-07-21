@@ -50,9 +50,9 @@ public class Utility {
 
   // public static final String base_url = "http://182.73.134.116:5001/MobileService.asmx/";
 
-    public static final String domain_name ="http://testcrm.cbslprojects.com";
+    //public static final String domain_name ="http://testcrm.cbslprojects.com";
 
-  //  public static final String domain_name = "https://crm.cbslprojects.com";
+    public static final String domain_name = "https://crm.cbslprojects.com";
     public static final String base_url = domain_name + "/mobileservice.asmx/";
 
     public static boolean isNetworkAvailable(Context context) {
